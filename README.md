@@ -1,4 +1,4 @@
 # Calculator C#
 Basic Calculator 
 
-[logo]: https://github.com/BatuhanARK/Calculator-CSharp/blob/main/CalcImg.png 
+![](https://github.com/BatuhanARK/GIF/blob/main/CalcImg.png)
