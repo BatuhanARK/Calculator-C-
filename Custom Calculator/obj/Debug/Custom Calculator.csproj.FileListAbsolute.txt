@@ -1,0 +1,10 @@
+C:\Users\sende\source\repos\Custom Calculator\Custom Calculator\bin\Debug\Custom Calculator.exe.config
+C:\Users\sende\source\repos\Custom Calculator\Custom Calculator\bin\Debug\Custom Calculator.exe
+C:\Users\sende\source\repos\Custom Calculator\Custom Calculator\bin\Debug\Custom Calculator.pdb
+C:\Users\sende\source\repos\Custom Calculator\Custom Calculator\obj\Debug\Custom Calculator.csproj.AssemblyReference.cache
+C:\Users\sende\source\repos\Custom Calculator\Custom Calculator\obj\Debug\Custom_Calculator.Form1.resources
+C:\Users\sende\source\repos\Custom Calculator\Custom Calculator\obj\Debug\Custom_Calculator.Properties.Resources.resources
+C:\Users\sende\source\repos\Custom Calculator\Custom Calculator\obj\Debug\Custom Calculator.csproj.GenerateResource.cache
+C:\Users\sende\source\repos\Custom Calculator\Custom Calculator\obj\Debug\Custom Calculator.csproj.CoreCompileInputs.cache
+C:\Users\sende\source\repos\Custom Calculator\Custom Calculator\obj\Debug\Custom Calculator.exe
+C:\Users\sende\source\repos\Custom Calculator\Custom Calculator\obj\Debug\Custom Calculator.pdb
