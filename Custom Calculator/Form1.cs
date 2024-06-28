@@ -71,7 +71,7 @@ namespace Custom_Calculator
         }
         private void BtnHistory_Click(object sender, EventArgs e)
         {
-            PnlHistory.Height = (PnlHistory.Height == 5) ? PnlHistory.Height= 345 : 5;
+            PnlHistory.Height = (PnlHistory.Height == 5) ? PnlHistory.Height= 350 : 5;
         }
         private void BtnClearHistory_Click(object sender, EventArgs e)
         {
@@ -127,17 +127,17 @@ namespace Custom_Calculator
         {
             Application.Exit();
         }
+        private void BtnDecimal_Click(object sender, EventArgs e)
+        {
+            if (!TxtDisplay1.Text.Contains("."))
+                TxtDisplay1.Text = TxtDisplay1.Text + ".";
+        }
         private void BtnNum_Click(object sender, EventArgs e)
         {
             if (TxtDisplay1.Text == "0" || enterValue) TxtDisplay1.Text = string.Empty;
             enterValue = false;
             CalcButton button = (CalcButton)sender;
-            if (button.Text == ".")
-            {
-                if (!TxtDisplay1.Text.Contains("."))
-                    TxtDisplay1.Text = TxtDisplay1.Text + button.Text;
-            }
-            else TxtDisplay1.Text = TxtDisplay1.Text + button.Text;
+            TxtDisplay1.Text = TxtDisplay1.Text + button.Text;
         }
     }
 }

@@ -10,7 +10,7 @@ namespace CalcButtons
         //FIELDS
         private int borderSize = 0;
         private int borderRadius = 50;
-        private Color borderColor = Color.DarkGray;
+        private Color borderColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
 
         //PROPERTIES
         public int BorderSize
@@ -33,10 +33,10 @@ namespace CalcButtons
             get => ForeColor;
             set { ForeColor = value; }
         }
-        public Color BorderColor 
+        public Color BorderColor
         {
-            get => BorderColor;
-            set { BorderColor = value; }
+            get => borderColor;
+            set { borderColor = value; Invalidate(); }
         }
 
         //CONSTRUCTOR

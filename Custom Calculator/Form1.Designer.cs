@@ -150,10 +150,10 @@
             this.PnlHistory.Controls.Add(this.RtBoxDisplayHistory);
             this.PnlHistory.Controls.Add(this.BtnClearHistory);
             this.PnlHistory.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.PnlHistory.Location = new System.Drawing.Point(0, 565);
+            this.PnlHistory.Location = new System.Drawing.Point(0, 569);
             this.PnlHistory.Margin = new System.Windows.Forms.Padding(0);
             this.PnlHistory.Name = "PnlHistory";
-            this.PnlHistory.Size = new System.Drawing.Size(350, 5);
+            this.PnlHistory.Size = new System.Drawing.Size(350, 1);
             this.PnlHistory.TabIndex = 1;
             // 
             // RtBoxDisplayHistory
@@ -181,7 +181,7 @@
             this.BtnClearHistory.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnClearHistory.Font = new System.Drawing.Font("Gadugi", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnClearHistory.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.BtnClearHistory.Location = new System.Drawing.Point(0, -35);
+            this.BtnClearHistory.Location = new System.Drawing.Point(0, -39);
             this.BtnClearHistory.Margin = new System.Windows.Forms.Padding(0);
             this.BtnClearHistory.Name = "BtnClearHistory";
             this.BtnClearHistory.Size = new System.Drawing.Size(350, 40);
@@ -259,21 +259,21 @@
             this.TxtDisplay1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.TxtDisplay1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.TxtDisplay1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.TxtDisplay1.Font = new System.Drawing.Font("Gadugi", 30F, System.Drawing.FontStyle.Bold);
+            this.TxtDisplay1.Font = new System.Drawing.Font("Gadugi", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TxtDisplay1.ForeColor = System.Drawing.Color.White;
             this.TxtDisplay1.Location = new System.Drawing.Point(0, 105);
             this.TxtDisplay1.Margin = new System.Windows.Forms.Padding(0);
             this.TxtDisplay1.Multiline = true;
             this.TxtDisplay1.Name = "TxtDisplay1";
-            this.TxtDisplay1.Size = new System.Drawing.Size(350, 50);
+            this.TxtDisplay1.Size = new System.Drawing.Size(350, 70);
             this.TxtDisplay1.TabIndex = 4;
             this.TxtDisplay1.Text = "0";
             this.TxtDisplay1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // BtnDecimal
             // 
-            this.BtnDecimal.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
-            this.BtnDecimal.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
+            this.BtnDecimal.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
+            this.BtnDecimal.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
             this.BtnDecimal.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.BtnDecimal.BorderRadius = 20;
             this.BtnDecimal.BorderSize = 1;
@@ -284,7 +284,7 @@
             this.BtnDecimal.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnDecimal.Font = new System.Drawing.Font("Gadugi", 14F, System.Drawing.FontStyle.Bold);
             this.BtnDecimal.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.BtnDecimal.Location = new System.Drawing.Point(177, 509);
+            this.BtnDecimal.Location = new System.Drawing.Point(177, 505);
             this.BtnDecimal.Margin = new System.Windows.Forms.Padding(0);
             this.BtnDecimal.Name = "BtnDecimal";
             this.BtnDecimal.Size = new System.Drawing.Size(84, 56);
@@ -292,12 +292,12 @@
             this.BtnDecimal.Text = ".";
             this.BtnDecimal.TextColor = System.Drawing.Color.WhiteSmoke;
             this.BtnDecimal.UseVisualStyleBackColor = false;
-            this.BtnDecimal.Click += new System.EventHandler(this.BtnNum_Click);
+            this.BtnDecimal.Click += new System.EventHandler(this.BtnDecimal_Click);
             // 
             // Btn0
             // 
-            this.Btn0.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
-            this.Btn0.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
+            this.Btn0.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
+            this.Btn0.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
             this.Btn0.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.Btn0.BorderRadius = 20;
             this.Btn0.BorderSize = 1;
@@ -308,7 +308,7 @@
             this.Btn0.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Btn0.Font = new System.Drawing.Font("Gadugi", 14F, System.Drawing.FontStyle.Bold);
             this.Btn0.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.Btn0.Location = new System.Drawing.Point(89, 509);
+            this.Btn0.Location = new System.Drawing.Point(89, 505);
             this.Btn0.Margin = new System.Windows.Forms.Padding(0);
             this.Btn0.Name = "Btn0";
             this.Btn0.Size = new System.Drawing.Size(84, 56);
@@ -320,8 +320,8 @@
             // 
             // Btn6
             // 
-            this.Btn6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
-            this.Btn6.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
+            this.Btn6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
+            this.Btn6.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
             this.Btn6.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.Btn6.BorderRadius = 20;
             this.Btn6.BorderSize = 1;
@@ -332,7 +332,7 @@
             this.Btn6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Btn6.Font = new System.Drawing.Font("Gadugi", 14F, System.Drawing.FontStyle.Bold);
             this.Btn6.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.Btn6.Location = new System.Drawing.Point(177, 395);
+            this.Btn6.Location = new System.Drawing.Point(177, 391);
             this.Btn6.Margin = new System.Windows.Forms.Padding(0);
             this.Btn6.Name = "Btn6";
             this.Btn6.Size = new System.Drawing.Size(84, 56);
@@ -344,8 +344,8 @@
             // 
             // Btn5
             // 
-            this.Btn5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
-            this.Btn5.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
+            this.Btn5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
+            this.Btn5.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
             this.Btn5.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.Btn5.BorderRadius = 20;
             this.Btn5.BorderSize = 1;
@@ -356,7 +356,7 @@
             this.Btn5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Btn5.Font = new System.Drawing.Font("Gadugi", 14F, System.Drawing.FontStyle.Bold);
             this.Btn5.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.Btn5.Location = new System.Drawing.Point(89, 395);
+            this.Btn5.Location = new System.Drawing.Point(89, 391);
             this.Btn5.Margin = new System.Windows.Forms.Padding(0);
             this.Btn5.Name = "Btn5";
             this.Btn5.Size = new System.Drawing.Size(84, 56);
@@ -368,8 +368,8 @@
             // 
             // Btn3
             // 
-            this.Btn3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
-            this.Btn3.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
+            this.Btn3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
+            this.Btn3.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
             this.Btn3.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.Btn3.BorderRadius = 20;
             this.Btn3.BorderSize = 1;
@@ -380,7 +380,7 @@
             this.Btn3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Btn3.Font = new System.Drawing.Font("Gadugi", 14F, System.Drawing.FontStyle.Bold);
             this.Btn3.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.Btn3.Location = new System.Drawing.Point(177, 452);
+            this.Btn3.Location = new System.Drawing.Point(177, 448);
             this.Btn3.Margin = new System.Windows.Forms.Padding(0);
             this.Btn3.Name = "Btn3";
             this.Btn3.Size = new System.Drawing.Size(84, 56);
@@ -392,18 +392,18 @@
             // 
             // BtnSquare
             // 
-            this.BtnSquare.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
-            this.BtnSquare.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
+            this.BtnSquare.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(47)))), ((int)(((byte)(47)))));
+            this.BtnSquare.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(47)))), ((int)(((byte)(47)))));
             this.BtnSquare.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.BtnSquare.BorderRadius = 20;
             this.BtnSquare.BorderSize = 1;
             this.BtnSquare.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.BtnSquare.FlatAppearance.BorderSize = 2;
-            this.BtnSquare.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
-            this.BtnSquare.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
+            this.BtnSquare.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(57)))), ((int)(((byte)(57)))));
+            this.BtnSquare.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(52)))), ((int)(((byte)(52)))));
             this.BtnSquare.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnSquare.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.BtnSquare.Location = new System.Drawing.Point(177, 281);
+            this.BtnSquare.Location = new System.Drawing.Point(177, 277);
             this.BtnSquare.Margin = new System.Windows.Forms.Padding(0);
             this.BtnSquare.Name = "BtnSquare";
             this.BtnSquare.Size = new System.Drawing.Size(84, 56);
@@ -415,8 +415,8 @@
             // 
             // Btn9
             // 
-            this.Btn9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
-            this.Btn9.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
+            this.Btn9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
+            this.Btn9.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
             this.Btn9.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.Btn9.BorderRadius = 20;
             this.Btn9.BorderSize = 1;
@@ -427,7 +427,7 @@
             this.Btn9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Btn9.Font = new System.Drawing.Font("Gadugi", 14F, System.Drawing.FontStyle.Bold);
             this.Btn9.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.Btn9.Location = new System.Drawing.Point(177, 338);
+            this.Btn9.Location = new System.Drawing.Point(177, 334);
             this.Btn9.Margin = new System.Windows.Forms.Padding(0);
             this.Btn9.Name = "Btn9";
             this.Btn9.Size = new System.Drawing.Size(84, 56);
@@ -439,8 +439,8 @@
             // 
             // BtnPN
             // 
-            this.BtnPN.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
-            this.BtnPN.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
+            this.BtnPN.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
+            this.BtnPN.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
             this.BtnPN.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.BtnPN.BorderRadius = 20;
             this.BtnPN.BorderSize = 1;
@@ -451,7 +451,7 @@
             this.BtnPN.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnPN.Font = new System.Drawing.Font("Gadugi", 14F, System.Drawing.FontStyle.Bold);
             this.BtnPN.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.BtnPN.Location = new System.Drawing.Point(1, 509);
+            this.BtnPN.Location = new System.Drawing.Point(1, 505);
             this.BtnPN.Margin = new System.Windows.Forms.Padding(0);
             this.BtnPN.Name = "BtnPN";
             this.BtnPN.Size = new System.Drawing.Size(84, 56);
@@ -463,18 +463,18 @@
             // 
             // BtnX2
             // 
-            this.BtnX2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
-            this.BtnX2.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
+            this.BtnX2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(47)))), ((int)(((byte)(47)))));
+            this.BtnX2.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(47)))), ((int)(((byte)(47)))));
             this.BtnX2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.BtnX2.BorderRadius = 20;
             this.BtnX2.BorderSize = 1;
             this.BtnX2.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.BtnX2.FlatAppearance.BorderSize = 2;
-            this.BtnX2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
-            this.BtnX2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
+            this.BtnX2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(57)))), ((int)(((byte)(57)))));
+            this.BtnX2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(52)))), ((int)(((byte)(52)))));
             this.BtnX2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnX2.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.BtnX2.Location = new System.Drawing.Point(89, 281);
+            this.BtnX2.Location = new System.Drawing.Point(89, 277);
             this.BtnX2.Margin = new System.Windows.Forms.Padding(0);
             this.BtnX2.Name = "BtnX2";
             this.BtnX2.Size = new System.Drawing.Size(84, 56);
@@ -486,8 +486,8 @@
             // 
             // Btn4
             // 
-            this.Btn4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
-            this.Btn4.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
+            this.Btn4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
+            this.Btn4.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
             this.Btn4.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.Btn4.BorderRadius = 20;
             this.Btn4.BorderSize = 1;
@@ -498,7 +498,7 @@
             this.Btn4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Btn4.Font = new System.Drawing.Font("Gadugi", 14F, System.Drawing.FontStyle.Bold);
             this.Btn4.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.Btn4.Location = new System.Drawing.Point(1, 395);
+            this.Btn4.Location = new System.Drawing.Point(1, 391);
             this.Btn4.Margin = new System.Windows.Forms.Padding(0);
             this.Btn4.Name = "Btn4";
             this.Btn4.Size = new System.Drawing.Size(84, 56);
@@ -510,8 +510,8 @@
             // 
             // Btn2
             // 
-            this.Btn2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
-            this.Btn2.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
+            this.Btn2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
+            this.Btn2.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
             this.Btn2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.Btn2.BorderRadius = 20;
             this.Btn2.BorderSize = 1;
@@ -522,7 +522,7 @@
             this.Btn2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Btn2.Font = new System.Drawing.Font("Gadugi", 14F, System.Drawing.FontStyle.Bold);
             this.Btn2.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.Btn2.Location = new System.Drawing.Point(89, 452);
+            this.Btn2.Location = new System.Drawing.Point(89, 448);
             this.Btn2.Margin = new System.Windows.Forms.Padding(0);
             this.Btn2.Name = "Btn2";
             this.Btn2.Size = new System.Drawing.Size(84, 56);
@@ -534,18 +534,18 @@
             // 
             // BtnC
             // 
-            this.BtnC.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
-            this.BtnC.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
+            this.BtnC.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(47)))), ((int)(((byte)(47)))));
+            this.BtnC.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(47)))), ((int)(((byte)(47)))));
             this.BtnC.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.BtnC.BorderRadius = 20;
             this.BtnC.BorderSize = 1;
             this.BtnC.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.BtnC.FlatAppearance.BorderSize = 2;
-            this.BtnC.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
-            this.BtnC.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
+            this.BtnC.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(57)))), ((int)(((byte)(57)))));
+            this.BtnC.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(52)))), ((int)(((byte)(52)))));
             this.BtnC.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnC.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.BtnC.Location = new System.Drawing.Point(177, 224);
+            this.BtnC.Location = new System.Drawing.Point(177, 220);
             this.BtnC.Margin = new System.Windows.Forms.Padding(0);
             this.BtnC.Name = "BtnC";
             this.BtnC.Size = new System.Drawing.Size(84, 56);
@@ -557,8 +557,8 @@
             // 
             // Btn8
             // 
-            this.Btn8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
-            this.Btn8.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
+            this.Btn8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
+            this.Btn8.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
             this.Btn8.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.Btn8.BorderRadius = 20;
             this.Btn8.BorderSize = 1;
@@ -569,7 +569,7 @@
             this.Btn8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Btn8.Font = new System.Drawing.Font("Gadugi", 14F, System.Drawing.FontStyle.Bold);
             this.Btn8.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.Btn8.Location = new System.Drawing.Point(89, 338);
+            this.Btn8.Location = new System.Drawing.Point(89, 334);
             this.Btn8.Margin = new System.Windows.Forms.Padding(0);
             this.Btn8.Name = "Btn8";
             this.Btn8.Size = new System.Drawing.Size(84, 56);
@@ -581,19 +581,19 @@
             // 
             // BtnEquals
             // 
-            this.BtnEquals.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
-            this.BtnEquals.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
+            this.BtnEquals.BackColor = System.Drawing.SystemColors.Highlight;
+            this.BtnEquals.BackgroundColor = System.Drawing.SystemColors.Highlight;
             this.BtnEquals.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.BtnEquals.BorderRadius = 20;
             this.BtnEquals.BorderSize = 1;
             this.BtnEquals.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.BtnEquals.FlatAppearance.BorderSize = 2;
-            this.BtnEquals.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
-            this.BtnEquals.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
+            this.BtnEquals.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.HotTrack;
+            this.BtnEquals.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DodgerBlue;
             this.BtnEquals.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnEquals.Font = new System.Drawing.Font("Gadugi", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnEquals.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.BtnEquals.Location = new System.Drawing.Point(265, 509);
+            this.BtnEquals.Location = new System.Drawing.Point(265, 505);
             this.BtnEquals.Margin = new System.Windows.Forms.Padding(0);
             this.BtnEquals.Name = "BtnEquals";
             this.BtnEquals.Size = new System.Drawing.Size(84, 56);
@@ -605,18 +605,18 @@
             // 
             // Btn1X
             // 
-            this.Btn1X.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
-            this.Btn1X.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
+            this.Btn1X.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(47)))), ((int)(((byte)(47)))));
+            this.Btn1X.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(47)))), ((int)(((byte)(47)))));
             this.Btn1X.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.Btn1X.BorderRadius = 20;
             this.Btn1X.BorderSize = 1;
             this.Btn1X.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.Btn1X.FlatAppearance.BorderSize = 2;
-            this.Btn1X.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
-            this.Btn1X.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
+            this.Btn1X.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(57)))), ((int)(((byte)(57)))));
+            this.Btn1X.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(52)))), ((int)(((byte)(52)))));
             this.Btn1X.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Btn1X.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.Btn1X.Location = new System.Drawing.Point(1, 281);
+            this.Btn1X.Location = new System.Drawing.Point(1, 277);
             this.Btn1X.Margin = new System.Windows.Forms.Padding(0);
             this.Btn1X.Name = "Btn1X";
             this.Btn1X.Size = new System.Drawing.Size(84, 56);
@@ -628,19 +628,19 @@
             // 
             // BtnSubtraction
             // 
-            this.BtnSubtraction.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
-            this.BtnSubtraction.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
+            this.BtnSubtraction.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(47)))), ((int)(((byte)(47)))));
+            this.BtnSubtraction.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(47)))), ((int)(((byte)(47)))));
             this.BtnSubtraction.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.BtnSubtraction.BorderRadius = 20;
             this.BtnSubtraction.BorderSize = 1;
             this.BtnSubtraction.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.BtnSubtraction.FlatAppearance.BorderSize = 2;
-            this.BtnSubtraction.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
-            this.BtnSubtraction.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
+            this.BtnSubtraction.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(57)))), ((int)(((byte)(57)))));
+            this.BtnSubtraction.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(52)))), ((int)(((byte)(52)))));
             this.BtnSubtraction.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnSubtraction.Font = new System.Drawing.Font("Gadugi", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnSubtraction.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.BtnSubtraction.Location = new System.Drawing.Point(265, 395);
+            this.BtnSubtraction.Location = new System.Drawing.Point(265, 391);
             this.BtnSubtraction.Margin = new System.Windows.Forms.Padding(0);
             this.BtnSubtraction.Name = "BtnSubtraction";
             this.BtnSubtraction.Size = new System.Drawing.Size(84, 56);
@@ -652,8 +652,8 @@
             // 
             // Btn1
             // 
-            this.Btn1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
-            this.Btn1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
+            this.Btn1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
+            this.Btn1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
             this.Btn1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.Btn1.BorderRadius = 20;
             this.Btn1.BorderSize = 1;
@@ -664,7 +664,7 @@
             this.Btn1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Btn1.Font = new System.Drawing.Font("Gadugi", 14F, System.Drawing.FontStyle.Bold);
             this.Btn1.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.Btn1.Location = new System.Drawing.Point(1, 452);
+            this.Btn1.Location = new System.Drawing.Point(1, 448);
             this.Btn1.Margin = new System.Windows.Forms.Padding(0);
             this.Btn1.Name = "Btn1";
             this.Btn1.Size = new System.Drawing.Size(84, 56);
@@ -676,18 +676,18 @@
             // 
             // BtnCE
             // 
-            this.BtnCE.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
-            this.BtnCE.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
+            this.BtnCE.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(47)))), ((int)(((byte)(47)))));
+            this.BtnCE.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(47)))), ((int)(((byte)(47)))));
             this.BtnCE.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.BtnCE.BorderRadius = 20;
             this.BtnCE.BorderSize = 1;
             this.BtnCE.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.BtnCE.FlatAppearance.BorderSize = 2;
-            this.BtnCE.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
-            this.BtnCE.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
+            this.BtnCE.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(57)))), ((int)(((byte)(57)))));
+            this.BtnCE.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(52)))), ((int)(((byte)(52)))));
             this.BtnCE.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnCE.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.BtnCE.Location = new System.Drawing.Point(89, 224);
+            this.BtnCE.Location = new System.Drawing.Point(89, 220);
             this.BtnCE.Margin = new System.Windows.Forms.Padding(0);
             this.BtnCE.Name = "BtnCE";
             this.BtnCE.Size = new System.Drawing.Size(84, 56);
@@ -699,8 +699,8 @@
             // 
             // Btn7
             // 
-            this.Btn7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
-            this.Btn7.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
+            this.Btn7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
+            this.Btn7.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
             this.Btn7.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.Btn7.BorderRadius = 20;
             this.Btn7.BorderSize = 1;
@@ -711,7 +711,7 @@
             this.Btn7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Btn7.Font = new System.Drawing.Font("Gadugi", 14F, System.Drawing.FontStyle.Bold);
             this.Btn7.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.Btn7.Location = new System.Drawing.Point(1, 338);
+            this.Btn7.Location = new System.Drawing.Point(1, 334);
             this.Btn7.Margin = new System.Windows.Forms.Padding(0);
             this.Btn7.Name = "Btn7";
             this.Btn7.Size = new System.Drawing.Size(84, 56);
@@ -723,19 +723,19 @@
             // 
             // BtnAdd
             // 
-            this.BtnAdd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
-            this.BtnAdd.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
+            this.BtnAdd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(47)))), ((int)(((byte)(47)))));
+            this.BtnAdd.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(47)))), ((int)(((byte)(47)))));
             this.BtnAdd.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.BtnAdd.BorderRadius = 20;
             this.BtnAdd.BorderSize = 1;
             this.BtnAdd.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.BtnAdd.FlatAppearance.BorderSize = 2;
-            this.BtnAdd.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
-            this.BtnAdd.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
+            this.BtnAdd.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(57)))), ((int)(((byte)(57)))));
+            this.BtnAdd.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(52)))), ((int)(((byte)(52)))));
             this.BtnAdd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnAdd.Font = new System.Drawing.Font("Gadugi", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnAdd.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.BtnAdd.Location = new System.Drawing.Point(265, 452);
+            this.BtnAdd.Location = new System.Drawing.Point(265, 448);
             this.BtnAdd.Margin = new System.Windows.Forms.Padding(0);
             this.BtnAdd.Name = "BtnAdd";
             this.BtnAdd.Size = new System.Drawing.Size(84, 56);
@@ -747,19 +747,19 @@
             // 
             // BtnDivision
             // 
-            this.BtnDivision.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
-            this.BtnDivision.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
+            this.BtnDivision.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(47)))), ((int)(((byte)(47)))));
+            this.BtnDivision.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(47)))), ((int)(((byte)(47)))));
             this.BtnDivision.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.BtnDivision.BorderRadius = 20;
             this.BtnDivision.BorderSize = 1;
             this.BtnDivision.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.BtnDivision.FlatAppearance.BorderSize = 2;
-            this.BtnDivision.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
-            this.BtnDivision.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
+            this.BtnDivision.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(57)))), ((int)(((byte)(57)))));
+            this.BtnDivision.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(52)))), ((int)(((byte)(52)))));
             this.BtnDivision.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnDivision.Font = new System.Drawing.Font("Gadugi", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnDivision.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.BtnDivision.Location = new System.Drawing.Point(265, 281);
+            this.BtnDivision.Location = new System.Drawing.Point(265, 277);
             this.BtnDivision.Margin = new System.Windows.Forms.Padding(0);
             this.BtnDivision.Name = "BtnDivision";
             this.BtnDivision.Size = new System.Drawing.Size(84, 56);
@@ -771,19 +771,19 @@
             // 
             // BtnMultiply
             // 
-            this.BtnMultiply.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
-            this.BtnMultiply.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
+            this.BtnMultiply.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(47)))), ((int)(((byte)(47)))));
+            this.BtnMultiply.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(47)))), ((int)(((byte)(47)))));
             this.BtnMultiply.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.BtnMultiply.BorderRadius = 20;
             this.BtnMultiply.BorderSize = 1;
             this.BtnMultiply.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.BtnMultiply.FlatAppearance.BorderSize = 2;
-            this.BtnMultiply.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
-            this.BtnMultiply.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
+            this.BtnMultiply.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(57)))), ((int)(((byte)(57)))));
+            this.BtnMultiply.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(52)))), ((int)(((byte)(52)))));
             this.BtnMultiply.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnMultiply.Font = new System.Drawing.Font("Gadugi", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnMultiply.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.BtnMultiply.Location = new System.Drawing.Point(265, 338);
+            this.BtnMultiply.Location = new System.Drawing.Point(265, 334);
             this.BtnMultiply.Margin = new System.Windows.Forms.Padding(0);
             this.BtnMultiply.Name = "BtnMultiply";
             this.BtnMultiply.Size = new System.Drawing.Size(84, 56);
@@ -795,18 +795,18 @@
             // 
             // BtnPercent
             // 
-            this.BtnPercent.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
-            this.BtnPercent.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
+            this.BtnPercent.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(47)))), ((int)(((byte)(47)))));
+            this.BtnPercent.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(47)))), ((int)(((byte)(47)))));
             this.BtnPercent.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.BtnPercent.BorderRadius = 20;
             this.BtnPercent.BorderSize = 1;
             this.BtnPercent.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.BtnPercent.FlatAppearance.BorderSize = 2;
-            this.BtnPercent.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
-            this.BtnPercent.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
+            this.BtnPercent.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(57)))), ((int)(((byte)(57)))));
+            this.BtnPercent.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(52)))), ((int)(((byte)(52)))));
             this.BtnPercent.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnPercent.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.BtnPercent.Location = new System.Drawing.Point(1, 224);
+            this.BtnPercent.Location = new System.Drawing.Point(1, 220);
             this.BtnPercent.Margin = new System.Windows.Forms.Padding(0);
             this.BtnPercent.Name = "BtnPercent";
             this.BtnPercent.Size = new System.Drawing.Size(84, 56);
@@ -818,18 +818,18 @@
             // 
             // BtnBackSpace
             // 
-            this.BtnBackSpace.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
-            this.BtnBackSpace.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
+            this.BtnBackSpace.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(47)))), ((int)(((byte)(47)))));
+            this.BtnBackSpace.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(47)))), ((int)(((byte)(47)))));
             this.BtnBackSpace.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.BtnBackSpace.BorderRadius = 20;
             this.BtnBackSpace.BorderSize = 1;
             this.BtnBackSpace.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.BtnBackSpace.FlatAppearance.BorderSize = 2;
-            this.BtnBackSpace.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
-            this.BtnBackSpace.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
+            this.BtnBackSpace.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(57)))), ((int)(((byte)(57)))));
+            this.BtnBackSpace.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(52)))), ((int)(((byte)(52)))));
             this.BtnBackSpace.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnBackSpace.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.BtnBackSpace.Location = new System.Drawing.Point(265, 224);
+            this.BtnBackSpace.Location = new System.Drawing.Point(265, 220);
             this.BtnBackSpace.Margin = new System.Windows.Forms.Padding(0);
             this.BtnBackSpace.Name = "BtnBackSpace";
             this.BtnBackSpace.Size = new System.Drawing.Size(84, 56);
@@ -849,11 +849,11 @@
             this.calcButton7.BorderSize = 1;
             this.calcButton7.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.calcButton7.FlatAppearance.BorderSize = 2;
-            this.calcButton7.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(55)))), ((int)(((byte)(55)))));
-            this.calcButton7.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
+            this.calcButton7.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(22)))), ((int)(((byte)(22)))));
+            this.calcButton7.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(27)))), ((int)(((byte)(27)))));
             this.calcButton7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.calcButton7.ForeColor = System.Drawing.Color.Silver;
-            this.calcButton7.Location = new System.Drawing.Point(10, 177);
+            this.calcButton7.Location = new System.Drawing.Point(10, 183);
             this.calcButton7.Margin = new System.Windows.Forms.Padding(0);
             this.calcButton7.Name = "calcButton7";
             this.calcButton7.Size = new System.Drawing.Size(50, 30);
@@ -872,11 +872,11 @@
             this.calcButton5.BorderSize = 1;
             this.calcButton5.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.calcButton5.FlatAppearance.BorderSize = 2;
-            this.calcButton5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(55)))), ((int)(((byte)(55)))));
-            this.calcButton5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
+            this.calcButton5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(22)))), ((int)(((byte)(22)))));
+            this.calcButton5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(27)))), ((int)(((byte)(27)))));
             this.calcButton5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.calcButton5.ForeColor = System.Drawing.Color.Silver;
-            this.calcButton5.Location = new System.Drawing.Point(122, 176);
+            this.calcButton5.Location = new System.Drawing.Point(122, 182);
             this.calcButton5.Margin = new System.Windows.Forms.Padding(0);
             this.calcButton5.Name = "calcButton5";
             this.calcButton5.Size = new System.Drawing.Size(50, 30);
@@ -895,12 +895,12 @@
             this.calcButton3.BorderSize = 1;
             this.calcButton3.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.calcButton3.FlatAppearance.BorderSize = 2;
-            this.calcButton3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(55)))), ((int)(((byte)(55)))));
-            this.calcButton3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
+            this.calcButton3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(22)))), ((int)(((byte)(22)))));
+            this.calcButton3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(27)))), ((int)(((byte)(27)))));
             this.calcButton3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.calcButton3.Font = new System.Drawing.Font("Gadugi", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.calcButton3.ForeColor = System.Drawing.Color.Silver;
-            this.calcButton3.Location = new System.Drawing.Point(234, 176);
+            this.calcButton3.Location = new System.Drawing.Point(234, 182);
             this.calcButton3.Margin = new System.Windows.Forms.Padding(0);
             this.calcButton3.Name = "calcButton3";
             this.calcButton3.Size = new System.Drawing.Size(50, 30);
@@ -919,11 +919,11 @@
             this.calcButton6.BorderSize = 1;
             this.calcButton6.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.calcButton6.FlatAppearance.BorderSize = 2;
-            this.calcButton6.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(55)))), ((int)(((byte)(55)))));
-            this.calcButton6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
+            this.calcButton6.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(22)))), ((int)(((byte)(22)))));
+            this.calcButton6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(27)))), ((int)(((byte)(27)))));
             this.calcButton6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.calcButton6.ForeColor = System.Drawing.Color.Silver;
-            this.calcButton6.Location = new System.Drawing.Point(66, 176);
+            this.calcButton6.Location = new System.Drawing.Point(66, 182);
             this.calcButton6.Margin = new System.Windows.Forms.Padding(0);
             this.calcButton6.Name = "calcButton6";
             this.calcButton6.Size = new System.Drawing.Size(50, 30);
@@ -942,11 +942,11 @@
             this.calcButton4.BorderSize = 1;
             this.calcButton4.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.calcButton4.FlatAppearance.BorderSize = 2;
-            this.calcButton4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(55)))), ((int)(((byte)(55)))));
-            this.calcButton4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
+            this.calcButton4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(22)))), ((int)(((byte)(22)))));
+            this.calcButton4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(27)))), ((int)(((byte)(27)))));
             this.calcButton4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.calcButton4.ForeColor = System.Drawing.Color.Silver;
-            this.calcButton4.Location = new System.Drawing.Point(178, 176);
+            this.calcButton4.Location = new System.Drawing.Point(178, 182);
             this.calcButton4.Margin = new System.Windows.Forms.Padding(0);
             this.calcButton4.Name = "calcButton4";
             this.calcButton4.Size = new System.Drawing.Size(50, 30);
@@ -965,12 +965,12 @@
             this.calcButton1.BorderSize = 1;
             this.calcButton1.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.calcButton1.FlatAppearance.BorderSize = 2;
-            this.calcButton1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(55)))), ((int)(((byte)(55)))));
-            this.calcButton1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
+            this.calcButton1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(22)))), ((int)(((byte)(22)))));
+            this.calcButton1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(27)))), ((int)(((byte)(27)))));
             this.calcButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.calcButton1.Font = new System.Drawing.Font("Gadugi", 10F);
             this.calcButton1.ForeColor = System.Drawing.Color.Silver;
-            this.calcButton1.Location = new System.Drawing.Point(290, 176);
+            this.calcButton1.Location = new System.Drawing.Point(290, 182);
             this.calcButton1.Margin = new System.Windows.Forms.Padding(0);
             this.calcButton1.Name = "calcButton1";
             this.calcButton1.Size = new System.Drawing.Size(50, 30);
